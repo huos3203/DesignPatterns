@@ -1,5 +1,5 @@
-#!/usr/bin/swift
-/*
+
+/*#!/usr/bin/swift
  * jisuanqi.swift
  * Created by admin on 2019-01-24.
  *
@@ -25,11 +25,11 @@
 import Foundation
 class Calculator 
 {
-    var first:String,second:String
+    var first:String = "",second:String = ""
     //MARK:- override
     
     //MARK:- api
-    public func Operation(first:String,second:String,symbol:String) -> Int {
+    public func Operation(_ first:String,second:String,symbol:String) -> Int {
         var num:Int
         self.first = first
         self.second = second
@@ -51,19 +51,19 @@ class Calculator
     //MARK:- private
     func add() -> Int {
         
-        return  Int(first) + Int(second)
+        return  Int(first)! + Int(second)!
     }
     
     func sub() -> Int {
-        return Int(first) - Int(second)
+        return Int(first)! - Int(second)!
     }
     
     func multiply() -> Int {
-        return Int(first) * Int(second)
+        return Int(first)! * Int(second)!
     }
     
     func division() -> Int {
-        return Int(first) / Int(second)
+        return Int(first)! / Int(second)!
     }
     //MARK:-  getter / setter
 }
@@ -72,5 +72,5 @@ let fir = CommandLine.arguments[1]
 let sec = CommandLine.arguments[2]
 let sym = CommandLine.arguments[3]
 let cal = Calculator()
-cal.Operation(fir,sec,sym)
+//cal.Operation(fir, second: sec, symbol: sym)
 

@@ -1,0 +1,89 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/SPMCmd/Sources/DesignPatterns/Sources/Calculator.swift",
+      "line": 26,
+      "symbol": "Calculator",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/SPMCmd/Sources/DesignPatterns/Sources/Calculator.swift",
+      "line": 28,
+      "symbol": "Calculator.first",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/SPMCmd/Sources/DesignPatterns/Sources/Calculator.swift",
+      "line": 28,
+      "symbol": "Calculator.second",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/SPMCmd/Sources/DesignPatterns/Sources/Calculator.swift",
+      "line": 32,
+      "symbol": "Calculator.Operation(_:second:symbol:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/SPMCmd/Sources/DesignPatterns/Sources/Calculator.swift",
+      "line": 52,
+      "symbol": "Calculator.add()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/SPMCmd/Sources/DesignPatterns/Sources/Calculator.swift",
+      "line": 57,
+      "symbol": "Calculator.sub()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/SPMCmd/Sources/DesignPatterns/Sources/Calculator.swift",
+      "line": 61,
+      "symbol": "Calculator.multiply()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/SPMCmd/Sources/DesignPatterns/Sources/Calculator.swift",
+      "line": 65,
+      "symbol": "Calculator.division()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/SPMCmd/Sources/DesignPatterns/Sources/Calculator.swift",
+      "line": 71,
+      "symbol": "fir",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/SPMCmd/Sources/DesignPatterns/Sources/Calculator.swift",
+      "line": 72,
+      "symbol": "sec",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/SPMCmd/Sources/DesignPatterns/Sources/Calculator.swift",
+      "line": 73,
+      "symbol": "sym",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/SPMCmd/Sources/DesignPatterns/Sources/Calculator.swift",
+      "line": 74,
+      "symbol": "cal",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/admin/hsg/hexo/XcodeTool/SPMCmd"
+}
