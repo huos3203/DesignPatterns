@@ -1,0 +1,73 @@
+@startuml
+
+title 计算器类结构 
+left header
+学习大话设计模式，面向对象的特征
+1. 封装 2. 继承 3. 多态
+变量：
+属性：
+操作：加减乘除操作
+
+# 计算机变成，面对过程编程
+# 面向对象：
+endheader
+
+'******* 类声明模块 *******'
+'类型:class,abstract,interface,annotation,enum'
+
+class Calculator {
+--属性组 -- 
+public first:Int = 0
+public second:Int = 0
+public sybol:String = "+"
+__ 函数组 __
+public func add(first:Int,second:Int)
+public func sub(first:Int,second:Int)
+}
+
+'抽象对象相同的方法和属性,封装类属性和方法'
+class Operation{
+    -- 属性 --
+    var first:Int
+    var second:Int
+    -- 函数组 --
+    func GetResult(first:Int,second:Int)
+}
+class OperaterAdd
+class OperaterMut
+class OperaterDiv
+class OperaterSub
+
+'类关系'
+OperaterAdd -up-|> Operation
+OperaterDiv -up-|> Operation
+OperaterMut -up-|> Operation
+OperaterSub -up-|> Operation
+
+
+
+'###### 类备注模块 类声明末尾使用:note 位置: 备注#########'
+note left of Calculator 
+    1. 测试类图使用
+    2. 快速适应vim编写UML习惯
+end note
+
+note left of OperaterAdd
+    1. 加法
+end note
+
+note right of OperaterSub
+   1. 减法
+end note
+
+note right of OperaterMut
+    1. 乘法
+end note
+
+note right of OperaterDiv
+    1. 除法
+end note
+
+
+
+@enduml
